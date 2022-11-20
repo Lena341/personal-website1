@@ -1,7 +1,6 @@
 body
 {
     background-color: white;
-    overflow: hidden;
 }
 
 .myMenu
@@ -168,6 +167,11 @@ body
     {
         display: none;
     }
+    #frontImage
+    {
+        width: 50%;
+        height: 50%;
+    }
 }
 
 @media only screen and (max-width:1000px) 
@@ -214,17 +218,3 @@ body
     }
     
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-   
