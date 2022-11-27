@@ -12,7 +12,7 @@ body
     position: fixed;
     overflow: hidden;
     margin-bottom: 0px;
-    margin-left: 600px;
+    margin-left: 750px;
 }
 
 .myMenu a
@@ -60,9 +60,9 @@ body
 {
     color: white;
     text-decoration: none;
-    margin-top: 420px;
+    margin-top: 580px;
     padding-left: 20px;
-    font-size: 30px;
+    font-size: 20px;
     font-weight: 100;
     white-space: nowrap;
     -ms-transform: rotate(270deg);
