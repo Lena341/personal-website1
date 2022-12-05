@@ -185,15 +185,19 @@ body
     }
 }
 
-@media only screen and (max-width:600px) 
+@media only screen and (max-width:500px) 
 {
+     body
+    {
+        overflow-x: hidden !important;
+        overflow-y: scroll;
+    }
     .myName
     {
-        float: left;
-        top: 70px;
-        left: -98px;
-        position: fixed;
-        margin-left: 260px;
+        display: block;
+        top: -470px;
+        left: -10px;
+        position: relative;
     }
 }
 
