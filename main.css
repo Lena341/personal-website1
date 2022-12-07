@@ -149,14 +149,6 @@ body
         left: -55px;
         position: relative;
     }
-     .button1
-    {
-        left: 160px;
-    }
-    .button2
-    {
-        left: 280px;
-    }
 }
 
 @media only screen and (max-width:1000px) 
