@@ -56,6 +56,36 @@ body
     position: fixed;
 }
 
+#socialMedia1
+{
+     color: white;
+     font-size: 20px;
+     font-weight: 200;
+     white-space: nowrap;
+     -ms-transform: rotate(270deg);
+     -webkit-transform: rotate(270deg);
+     transform: rotate(270deg);
+     padding-left: 40px;
+     margin-top: 115px;
+     text-decoration: none;
+     position: fixed;
+}
+
+#socialMedia2
+{
+    color: white;
+    font-size: 20px;
+    font-weight: 200;
+    white-space: nowrap;
+    -ms-transform: rotate(270deg);
+    -webkit-transform: rotate(270deg);
+    transform: rotate(270deg);
+    padding-left: 57px;
+    margin-top: 240px;
+    text-decoration: none;
+    position: fixed;
+}
+
 .softwareEngineering
 {
     margin-left: 1180px; 
@@ -143,6 +173,11 @@ body
 
 @media only screen and (max-width:500px) 
 {
+    body
+    {
+        overflow-x: hidden !important;
+        overflow-y: scroll;
+    }
     .myName
     {
         top: -470px;
@@ -194,20 +229,5 @@ body
         display: none;
     }
     
-}
-
-@media only screen and (max-width:500px) and (min-height:500px)
-{
-    .myName
-    {
-        top: -470px;
-        left: -55px;
-        position: relative;
-    }
-    .button1, .button2
-    {
-        top: 700px;
-    }
-   
 }
 
