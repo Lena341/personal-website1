@@ -203,4 +203,39 @@ body
     }
     
 }
+@media only screen and (max-width:500px) and (max-height:500px)
+{
+    .myName
+    {
+        top: -470px;
+        left: -55px;
+        position: relative;
+    }
+    .button1, .button2
+    {
+        top: 500px;
+    }
+    .button1
+    {
+        left: 150px;
+    }
+    .button2
+    {
+        left: 270px;
+    }
+}
+@media only screen and (max-width:500px) and (min-height:500px)
+{
+    .myName
+    {
+        top: -470px;
+        left: -55px;
+        position: relative;
+    }
+    .button1, .button2
+    {
+        top: 700px;
+    }
+   
+}
 
