@@ -186,6 +186,27 @@ body
     }
 }
 
+@media only screen and (max-width:500px), (max-height:500px) 
+{
+    body
+    {
+        overflow-x: hidden !important;
+        overflow-y: scroll;
+    }
+    .button1
+    {
+        position: relative;
+        top: 540px;
+        left: 160px;
+    }
+    .button2
+    {
+        position: relative;
+        top: 540px;
+        left: 270px;
+    }
+}
+
 @media only screen and (max-width:1000px) 
 {
     .button1
