@@ -216,7 +216,7 @@ body
     }
     #frontImage
     {
-        position: fixed;
+        position: relative;
     }
 }
 
