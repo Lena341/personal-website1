@@ -207,6 +207,19 @@ body
     }
 }
 
+@media only screen and (max-width:500px), (orientation:landscape) 
+{
+    body
+    {
+        overflow-x: hidden !important;
+        overflow-y: scroll;
+    }
+    #frontImage
+    {
+        position: fixed;
+    }
+}
+
 @media only screen and (max-width:1000px) 
 {
     .button1
