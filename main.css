@@ -207,16 +207,28 @@ body
     }
 }
 
-@media only screen and (max-width:500px), (orientation:landscape) 
+@media only screen and (max-width:500px) and (orientation:landscape) 
 {
     body
     {
         overflow-x: hidden !important;
         overflow-y: scroll;
     }
-    #frontImage
+    .myName
     {
         position: relative;
+    }
+    .button1
+    {
+        position: relative;
+        top: 300px;
+        left: 160px;
+    }
+    .button2
+    {
+        position: relative;
+        top: 300px;
+        left: 170px;
     }
 }
 
