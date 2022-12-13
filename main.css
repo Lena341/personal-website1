@@ -3,6 +3,10 @@ body
     background-color: white;
     font-family: 'Raleway', sans-serif;
     overflow: auto;
+    display: -webkit-box;
+    display: flex;
+    -webkit-box-orient: vertical;
+    flex-direction: column;
 }
 
 .myMenu
@@ -53,36 +57,6 @@ body
     z-index: -1;
     top: 0;
     left: 0;
-    position: fixed;
-}
-
-#socialMedia1
-{
-     color: white;
-     font-size: 20px;
-     font-weight: 200;
-     white-space: nowrap;
-     -ms-transform: rotate(270deg);
-     -webkit-transform: rotate(270deg);
-     transform: rotate(270deg);
-     padding-left: 40px;
-     margin-top: 115px;
-     text-decoration: none;
-     position: fixed;
-}
-
-#socialMedia2
-{
-    color: white;
-    font-size: 20px;
-    font-weight: 200;
-    white-space: nowrap;
-    -ms-transform: rotate(270deg);
-    -webkit-transform: rotate(270deg);
-    transform: rotate(270deg);
-    padding-left: 57px;
-    margin-top: 240px;
-    text-decoration: none;
     position: fixed;
 }
 
@@ -184,6 +158,10 @@ body
         left: -45px;
         position: relative;
     }
+    .button1, .button2
+    {
+        top: 550px;
+    }
 }
 
 @media only screen and (max-width:1000px) 
@@ -222,7 +200,7 @@ body
     }
 }
 
-@media only screen and (min-width:1001px) or (max-height:500px)
+@media only screen and (min-width:1001px)
 {
     .button1, .button2
     {
@@ -231,12 +209,11 @@ body
     
 }
 
-@media only screen and (max-width:500px) and (min-height: 500px) 
+@media screen and (orientation: landscape) 
 {
-    .button1, .button2
+    body
     {
-        top: 560px;
+        -webkit-box-orient: horizontal;
+        flex-direction: row;
     }
-
 }
-
