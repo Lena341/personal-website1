@@ -174,7 +174,7 @@ body
     }
 }
 
-@media only screen and (max-width:600px) and (max-height:100px) 
+@media only screen and (max-width:600px) and (max-height:300px) 
 {
     body
     {
@@ -189,7 +189,7 @@ body
     }
     .button1, .button2
     {
-        top: 500px;
+        top: 400px;
     }
 }
 
