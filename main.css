@@ -193,6 +193,25 @@ body
     }
 }
 
+ @media screen and (max-device-width:600px) and (min-device-height:786px)
+{
+    body
+    {
+        overflow-x: hidden !important;
+        overflow-y: scroll;
+    }
+    .myName
+    {
+        top: -470px;
+        left: -45px;
+        position: relative;
+    }
+    .button1, .button2
+    {
+        top: 590px;
+    }
+ }
+
 @media only screen and (min-width:1001px)
 {
     .button1, .button2
