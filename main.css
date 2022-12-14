@@ -174,26 +174,7 @@ bodyhttps://github.com/Lena341/elenakartsakli/blob/main/main.css
     }
 }
 
-@media only screen and (max-device-width:360px) and (max-device-height:760px)
-{
-     body
-    {
-        overflow-x: hidden !important;
-        overflow-y: scroll;
-    }
-    .button1
-    {
-        top: 700px;
-        left: 170px;
-    }
-    .button2
-    {
-        top: 700px;
-        left: 280px;
-    }
-}
-
-@media screen and (min-device-width:361px) and (min-device-height:761px)
+@media screen and (max-device-width:600px) and (max-device-height:790px)
 {
     body
     {
@@ -208,7 +189,26 @@ bodyhttps://github.com/Lena341/elenakartsakli/blob/main/main.css
     }
     .button1, .button2
     {
-        top: 590px;
+        top: 550px;
+    }
+ }
+
+ @media screen and (max-device-width:600px) and (min-device-height:790px)
+{
+    body
+    {
+        overflow-x: hidden !important;
+        overflow-y: scroll;
+    }
+    .myName
+    {
+        top: -470px;
+        left: -45px;
+        position: relative;
+    }
+    .button1, .button2
+    {
+        top: 620px;
     }
  }
 
