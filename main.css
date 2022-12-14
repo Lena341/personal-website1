@@ -174,26 +174,21 @@ body
     }
 }
 
-@media only screen and (max-device-width:600px) and (max-device-height:790px)
+@media only screen and (max-device-width:392px) and (max-device-height:760px)
 {
-    body
+    .button1
     {
-        overflow-x: hidden !important;
-        overflow-y: scroll;
+        top: 700px;
+        left: 170px;
     }
-    .myName
+    .button2
     {
-        top: -470px;
-        left: -45px;
-        position: relative;
-    }
-    .button1, .button2
-    {
-        top: 550px;
+        top: 700px;
+        left: 280px;
     }
 }
 
- @media screen and (max-device-width:600px) and (min-device-height:790px)
+@media screen and (max-device-width:400px) and (min-device-height:786px)
 {
     body
     {
@@ -208,7 +203,7 @@ body
     }
     .button1, .button2
     {
-        top: 620px;
+        top: 590px;
     }
  }
 
