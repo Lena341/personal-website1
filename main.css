@@ -176,6 +176,11 @@ bodyhttps://github.com/Lena341/elenakartsakli/blob/main/main.css
 
 @media only screen and (max-device-width:360px) and (max-device-height:760px)
 {
+     body
+    {
+        overflow-x: hidden !important;
+        overflow-y: scroll;
+    }
     .button1
     {
         top: 700px;
@@ -209,6 +214,11 @@ bodyhttps://github.com/Lena341/elenakartsakli/blob/main/main.css
 
 @media only screen and (min-width:1001px)
 {
+     body
+    {
+        overflow-x: hidden !important;
+        overflow-y: scroll;
+    }
     .button1, .button2
     {
         display: none;
