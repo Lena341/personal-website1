@@ -1,4 +1,4 @@
-body
+bodyhttps://github.com/Lena341/elenakartsakli/blob/main/main.css
 {
     background-color: white;
     font-family: 'Raleway', sans-serif;
@@ -174,7 +174,7 @@ body
     }
 }
 
-@media only screen and (max-device-width:392px) and (max-device-height:760px)
+@media only screen and (max-device-width:360px) and (max-device-height:760px)
 {
     .button1
     {
@@ -188,7 +188,7 @@ body
     }
 }
 
-@media screen and (max-device-width:400px) and (min-device-height:786px)
+@media screen and (min-device-width:361px) and (min-device-height:761px)
 {
     body
     {
