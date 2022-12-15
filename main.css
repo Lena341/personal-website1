@@ -174,7 +174,7 @@ body
     }
 }
 
-@media screen and (max-device-width:600px) and (max-device-height:789px)
+@media screen and (max-device-width:600px) and (max-device-height:779px)
 {
     body
     {
@@ -201,7 +201,7 @@ body
     }
  }
 
- @media screen and (max-device-width:600px) and (min-device-height:790px)
+ @media screen and (max-device-width:600px) and (min-device-height:780px)
 {
     body
     {
@@ -216,7 +216,7 @@ body
     }
     .button1, .button2
     {
-        top: 640px;
+        top: 620px;
     }
  }
 
