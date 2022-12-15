@@ -193,11 +193,11 @@ body
     }
     .button1
     {
-        left:170px;
+        left:160px;
     }
     .button2
     {
-        left: 290px;
+        left: 275px;
     }
  }
 
@@ -222,11 +222,7 @@ body
 
 @media only screen and (min-width:1001px)
 {
-     body
-    {
-        overflow-x: hidden !important;
-        overflow-y: scroll;
-    }
+   
     .button1, .button2
     {
         display: none;
