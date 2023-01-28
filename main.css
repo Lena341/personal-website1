@@ -398,7 +398,7 @@ body
         position: fixed;
         float: right; 
         padding-right: 15px;
-        margin-top: -400px;
+        margin-top: -200px;
     }
 }
 
@@ -424,8 +424,8 @@ body
     {
         position: fixed;
         float:right;
-        margin-top: -780px;
-       
+        margin-top: -800px;
+        padding-left:100px
     }
  }
 
