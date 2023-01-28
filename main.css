@@ -375,14 +375,3 @@ body
     }
 }
 
-
-@media only screen and (max-width:600px)
-{
-    .openMenuButton
-    {
-        position: relative;
-        float: right; 
-        padding-right: 15px;
-        margin-top: 300px;
-    }
-}
