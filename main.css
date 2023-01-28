@@ -375,3 +375,57 @@ body
     }
 }
 
+@media screen and (max-device-width:600px) and (max-device-height:779px)
+{
+    body
+    {
+        overflow-x: hidden !important;
+        overflow-y: scroll;
+    }
+    .myName
+    {
+        top: -470px;
+        left: -45px;
+        position: relative;
+    }
+    .button1, .button2
+    {
+        top: 550px;
+    }
+
+    .openMenuButton
+    {
+        position: fixed;
+        float: right; 
+        padding-right: 15px;
+        margin-top: -780px;
+    }
+}
+
+ @media screen and (max-device-width:600px) and (min-device-height:780px)
+{
+    body
+    {
+        overflow-x: hidden !important;
+        overflow-y: scroll;
+    }
+    .myName
+    {
+        top: -470px;
+        left: -45px;
+        position: relative;
+    }
+    .button1, .button2
+    {
+        top: 620px;
+    }
+
+    .openMenuButton
+    {
+        position: fixed;
+        float: right; 
+        padding-right: 15px;
+        margin-top: -780px;
+    }
+ }
+
