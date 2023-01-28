@@ -396,7 +396,7 @@ body
     .openMenuButton
     {
         position:fixed;
-        margin-top:-50px;
+        margin-top:-10px;
         margin-left:80%;
     }
 }
@@ -419,12 +419,5 @@ body
         top: 620px;
     }
 
-    .openMenuButton
-    {
-       position:fixed;
-        margin-top:-50px;
-        
-        margin-left:80%;
-    }
  }
 
