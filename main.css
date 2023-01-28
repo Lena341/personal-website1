@@ -197,11 +197,13 @@ body
     {
         top: 550px;
     }
-      position: relative;
-        float: right;
+    .openMenuButton
+    {
+        position: relative;
         float: right; 
         padding-right: 15px;
-        padding-top: 30px;
+        padding-top: 20px;
+    }
 }
 
  @media screen and (max-device-width:600px) and (min-device-height:780px)
@@ -220,12 +222,14 @@ body
     {
         top: 620px;
     }
-    
-      position: relative;
-        float: right;
+    .openMenuButton
+    {
+        position: relative;
         float: right; 
         padding-right: 15px;
-        padding-top: 30px;
+        padding-top: 20px;
+    }
+      
  }
 
 @media only screen and (min-width:1001px)
