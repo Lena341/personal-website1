@@ -422,11 +422,11 @@ body
 
     .openMenuButton
     {
-        position: fixed;
+        position: absolute;
         float:right;
         padding-right:15px;
         margin-top: -600px;
-        margin-left:350px;
+        margin-right:10px;
     }
  }
 
