@@ -180,14 +180,6 @@ body
    
 }
 
-@media only screen and (max-width:600px)
-{
-    .openMenuButton
-    {
-        display:none;
-    }
-}
-
 @media only screen and (min-width:1001px)
 {
     .button1, .button2
@@ -380,5 +372,14 @@ body
         float: right; 
         padding-right: 15px;
         margin-top: -280px;
+    }
+}
+
+
+@media only screen and (max-width:600px)
+{
+    .openMenuButton
+    {
+        display:none;
     }
 }
