@@ -200,8 +200,7 @@ body
     .openMenuButton
     {
         position: relative;
-        float:right; 
-        top:100px;
+        float:top;
     }
 }
 
@@ -225,8 +224,8 @@ body
      .openMenuButton
     {
         position: relative;
-        float: right; 
-        top:100px;
+        float: top; 
+       
     }
  }
 
