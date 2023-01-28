@@ -203,9 +203,8 @@ body
         position: relative;
         float: right; 
         padding-right:15px;
-        margin-top:-50px;
-        padding-top:-50px;
-    }
+        margin-top:-150px;
+     }
 }
 
  @media screen and (max-device-width:600px) and (min-device-height:780px)
@@ -230,8 +229,8 @@ body
         position: relative;
         float: right; 
         padding-right: 15px;
-        margin-top:-50px;
-        padding-top:-50px;
+        margin-top:-150px;
+       
     }
  }
 
