@@ -380,6 +380,9 @@ body
 {
     .openMenuButton
     {
-        display:none;
+        position: relative;
+        float: right; 
+        padding-right: 15px;
+        margin-top: -280px;
     }
 }
