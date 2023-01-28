@@ -202,7 +202,7 @@ body
         position: relative;
         float: right; 
         padding-right: 15px;
-        padding-top: 20px;
+        padding-top: -20px;
     }
 }
 
@@ -227,7 +227,7 @@ body
         position: relative;
         float: right; 
         padding-right: 15px;
-        padding-top: 20px;
+        padding-top: -40px;
     }
       
  }
