@@ -203,7 +203,7 @@ body
         position: relative;
         float: right; 
         padding-right: 15px;
-        margin-top: 60px;
+        padding-top: 95px;
     }
 }
 
@@ -224,12 +224,12 @@ body
         top: 620px;
     }
     
-    .openMenuButton
+     .openMenuButton
     {
         position: relative;
         float: right; 
         padding-right: 15px;
-        margin-top: 60px;
+        padding-top: 95px;
     }
  }
 
