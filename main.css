@@ -375,7 +375,7 @@ body
     }
 }
 
-@media screen and (max-device-width:600px) and (max-device-height:779px)
+@media screen and (max-device-width:600px) and (max-device-height:779px) and (orientation:portrait)
 {
     body
     {
@@ -395,13 +395,11 @@ body
 
     .openMenuButton
     {
-        position:fixed;
-        margin-top:-10px;
-        margin-left:80%;
+       display:none;
     }
 }
 
- @media screen and (max-device-width:600px) and (min-device-height:780px)
+ @media screen and (max-device-width:600px) and (min-device-height:780px) and (orientation:portrait)
 {
     body
     {
@@ -417,6 +415,11 @@ body
     .button1, .button2
     {
         top: 620px;
+    }
+    
+    .openMenuButton
+    {
+       display:none;
     }
 
  }
