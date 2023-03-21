@@ -7,21 +7,14 @@ body
 
 .myMenu
 {
-    top: 0;
-    width: 100%;
-    position: fixed;
     overflow: hidden;
-    margin-bottom: 0px;
-    margin-left: 745px;
 }
 
 .myMenu a
 {
+    float: right;
     color: black;
-    float: left;
-    display: block;
     text-decoration: none;
-    text-align: left;
     font-size: 30px;
     padding-top: 15px;
     padding-right: 20px;
@@ -49,10 +42,19 @@ body
     background-size: 140px;
     height: 100%;
     width: 140px;
-    overflow-x: hidden;
+    position: fixed;
     top: 0;
     left: 0;
-    position: fixed;
+    overflow: hidden;
+}
+
+#frontImage
+{
+    float:left; 
+    width: 39%; 
+    height: 39%; 
+    margin-top: 340px; 
+    margin-left: 180px;
 }
 
 .softwareEngineering
@@ -84,36 +86,36 @@ body
 
 .button1
 {
-        background-color: rgb(172, 141, 235);
-        border: none;
-        border-radius: 10px;
-        padding: 12px;
-        font-family: 'Raleway', sans-serif;
-        text-align: center;
-        text-decoration: none;
-        color: white;
-        font-size: 18px;
-        cursor: pointer;
-        left: 180px;
-        top: 690px;
-        position: fixed;
+    background-color: rgb(172, 141, 235);
+    border: none;
+    border-radius: 10px;
+    padding: 12px;
+    font-family: 'Raleway', sans-serif;
+    text-align: center;
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+    cursor: pointer;
+    left: 180px;
+    top: 690px;
+    position: fixed;
 }
     
 .button2
 {
-       background-color: rgb(172, 141, 235);
-        border: none;
-        border-radius: 10px;
-        padding: 12px;
-        font-family: 'Raleway', sans-serif;
-        text-align: center;
-        text-decoration: none;
-        color: white;
-        font-size: 18px;
-        cursor: pointer;
-        left: 300px;
-        top: 690px;
-        position: fixed;
+    background-color: rgb(172, 141, 235);
+    border: none;
+    border-radius: 10px;
+    padding: 12px;
+    font-family: 'Raleway', sans-serif;
+    text-align: center;
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+    cursor: pointer;
+    left: 300px;
+    top: 690px;
+    position: fixed;
 }
 
 @media only screen and (max-width:1400px) 
